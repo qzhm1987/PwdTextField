@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0467C8C51FFDC4910029347A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0467C8C41FFDC4910029347A /* AppDelegate.m */; };
+		0467C8C81FFDC4910029347A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0467C8C71FFDC4910029347A /* ViewController.m */; };
+		0467C8CB1FFDC4910029347A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0467C8C91FFDC4910029347A /* Main.storyboard */; };
+		0467C8CD1FFDC4910029347A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0467C8CC1FFDC4910029347A /* Assets.xcassets */; };
+		0467C8D01FFDC4910029347A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0467C8CE1FFDC4910029347A /* LaunchScreen.storyboard */; };
+		0467C8D31FFDC4910029347A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0467C8D21FFDC4910029347A /* main.m */; };
+		0467C8DD1FFDC4920029347A /* PassWordTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0467C8DC1FFDC4920029347A /* PassWordTextFieldTests.m */; };
+		0467C8E81FFDC4920029347A /* PassWordTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0467C8E71FFDC4920029347A /* PassWordTextFieldUITests.m */; };
+		0467C8F71FFDC98F0029347A /* UIView+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 0467C8F61FFDC98E0029347A /* UIView+category.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0467C8D91FFDC4920029347A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0467C8B81FFDC4910029347A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0467C8BF1FFDC4910029347A;
+			remoteInfo = PassWordTextField;
+		};
+		0467C8E41FFDC4920029347A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0467C8B81FFDC4910029347A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0467C8BF1FFDC4910029347A;
+			remoteInfo = PassWordTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0467C8C01FFDC4910029347A /* PassWordTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassWordTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0467C8C31FFDC4910029347A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0467C8C41FFDC4910029347A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0467C8C61FFDC4910029347A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0467C8C71FFDC4910029347A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0467C8CA1FFDC4910029347A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0467C8CC1FFDC4910029347A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0467C8CF1FFDC4910029347A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0467C8D11FFDC4910029347A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0467C8D21FFDC4910029347A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0467C8D81FFDC4920029347A /* PassWordTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassWordTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0467C8DC1FFDC4920029347A /* PassWordTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PassWordTextFieldTests.m; sourceTree = "<group>"; };
+		0467C8DE1FFDC4920029347A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0467C8E31FFDC4920029347A /* PassWordTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassWordTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0467C8E71FFDC4920029347A /* PassWordTextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PassWordTextFieldUITests.m; sourceTree = "<group>"; };
+		0467C8E91FFDC4920029347A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0467C8F51FFDC98E0029347A /* UIView+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+category.h"; sourceTree = "<group>"; };
+		0467C8F61FFDC98E0029347A /* UIView+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+category.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0467C8BD1FFDC4910029347A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0467C8D51FFDC4920029347A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0467C8E01FFDC4920029347A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0467C8B71FFDC4910029347A = {
+			isa = PBXGroup;
+			children = (
+				0467C8C21FFDC4910029347A /* PassWordTextField */,
+				0467C8DB1FFDC4920029347A /* PassWordTextFieldTests */,
+				0467C8E61FFDC4920029347A /* PassWordTextFieldUITests */,
+				0467C8C11FFDC4910029347A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0467C8C11FFDC4910029347A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0467C8C01FFDC4910029347A /* PassWordTextField.app */,
+				0467C8D81FFDC4920029347A /* PassWordTextFieldTests.xctest */,
+				0467C8E31FFDC4920029347A /* PassWordTextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0467C8C21FFDC4910029347A /* PassWordTextField */ = {
+			isa = PBXGroup;
+			children = (
+				0467C8F51FFDC98E0029347A /* UIView+category.h */,
+				0467C8F61FFDC98E0029347A /* UIView+category.m */,
+				0467C8C31FFDC4910029347A /* AppDelegate.h */,
+				0467C8C41FFDC4910029347A /* AppDelegate.m */,
+				0467C8C61FFDC4910029347A /* ViewController.h */,
+				0467C8C71FFDC4910029347A /* ViewController.m */,
+				0467C8C91FFDC4910029347A /* Main.storyboard */,
+				0467C8CC1FFDC4910029347A /* Assets.xcassets */,
+				0467C8CE1FFDC4910029347A /* LaunchScreen.storyboard */,
+				0467C8D11FFDC4910029347A /* Info.plist */,
+				0467C8D21FFDC4910029347A /* main.m */,
+			);
+			path = PassWordTextField;
+			sourceTree = "<group>";
+		};
+		0467C8DB1FFDC4920029347A /* PassWordTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				0467C8DC1FFDC4920029347A /* PassWordTextFieldTests.m */,
+				0467C8DE1FFDC4920029347A /* Info.plist */,
+			);
+			path = PassWordTextFieldTests;
+			sourceTree = "<group>";
+		};
+		0467C8E61FFDC4920029347A /* PassWordTextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0467C8E71FFDC4920029347A /* PassWordTextFieldUITests.m */,
+				0467C8E91FFDC4920029347A /* Info.plist */,
+			);
+			path = PassWordTextFieldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0467C8BF1FFDC4910029347A /* PassWordTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0467C8EC1FFDC4920029347A /* Build configuration list for PBXNativeTarget "PassWordTextField" */;
+			buildPhases = (
+				0467C8BC1FFDC4910029347A /* Sources */,
+				0467C8BD1FFDC4910029347A /* Frameworks */,
+				0467C8BE1FFDC4910029347A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PassWordTextField;
+			productName = PassWordTextField;
+			productReference = 0467C8C01FFDC4910029347A /* PassWordTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0467C8D71FFDC4920029347A /* PassWordTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0467C8EF1FFDC4920029347A /* Build configuration list for PBXNativeTarget "PassWordTextFieldTests" */;
+			buildPhases = (
+				0467C8D41FFDC4920029347A /* Sources */,
+				0467C8D51FFDC4920029347A /* Frameworks */,
+				0467C8D61FFDC4920029347A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0467C8DA1FFDC4920029347A /* PBXTargetDependency */,
+			);
+			name = PassWordTextFieldTests;
+			productName = PassWordTextFieldTests;
+			productReference = 0467C8D81FFDC4920029347A /* PassWordTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0467C8E21FFDC4920029347A /* PassWordTextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0467C8F21FFDC4920029347A /* Build configuration list for PBXNativeTarget "PassWordTextFieldUITests" */;
+			buildPhases = (
+				0467C8DF1FFDC4920029347A /* Sources */,
+				0467C8E01FFDC4920029347A /* Frameworks */,
+				0467C8E11FFDC4920029347A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0467C8E51FFDC4920029347A /* PBXTargetDependency */,
+			);
+			name = PassWordTextFieldUITests;
+			productName = PassWordTextFieldUITests;
+			productReference = 0467C8E31FFDC4920029347A /* PassWordTextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0467C8B81FFDC4910029347A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = BeiJingXiaoMenTong;
+				TargetAttributes = {
+					0467C8BF1FFDC4910029347A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					0467C8D71FFDC4920029347A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0467C8BF1FFDC4910029347A;
+					};
+					0467C8E21FFDC4920029347A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0467C8BF1FFDC4910029347A;
+					};
+				};
+			};
+			buildConfigurationList = 0467C8BB1FFDC4910029347A /* Build configuration list for PBXProject "PassWordTextField" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0467C8B71FFDC4910029347A;
+			productRefGroup = 0467C8C11FFDC4910029347A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0467C8BF1FFDC4910029347A /* PassWordTextField */,
+				0467C8D71FFDC4920029347A /* PassWordTextFieldTests */,
+				0467C8E21FFDC4920029347A /* PassWordTextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0467C8BE1FFDC4910029347A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0467C8D01FFDC4910029347A /* LaunchScreen.storyboard in Resources */,
+				0467C8CD1FFDC4910029347A /* Assets.xcassets in Resources */,
+				0467C8CB1FFDC4910029347A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0467C8D61FFDC4920029347A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0467C8E11FFDC4920029347A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0467C8BC1FFDC4910029347A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0467C8C81FFDC4910029347A /* ViewController.m in Sources */,
+				0467C8D31FFDC4910029347A /* main.m in Sources */,
+				0467C8F71FFDC98F0029347A /* UIView+category.m in Sources */,
+				0467C8C51FFDC4910029347A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0467C8D41FFDC4920029347A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0467C8DD1FFDC4920029347A /* PassWordTextFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0467C8DF1FFDC4920029347A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0467C8E81FFDC4920029347A /* PassWordTextFieldUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0467C8DA1FFDC4920029347A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0467C8BF1FFDC4910029347A /* PassWordTextField */;
+			targetProxy = 0467C8D91FFDC4920029347A /* PBXContainerItemProxy */;
+		};
+		0467C8E51FFDC4920029347A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0467C8BF1FFDC4910029347A /* PassWordTextField */;
+			targetProxy = 0467C8E41FFDC4920029347A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0467C8C91FFDC4910029347A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0467C8CA1FFDC4910029347A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0467C8CE1FFDC4910029347A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0467C8CF1FFDC4910029347A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0467C8EA1FFDC4920029347A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0467C8EB1FFDC4920029347A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0467C8ED1FFDC4920029347A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8DXMC25N8;
+				INFOPLIST_FILE = PassWordTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XiaoMenTong.PassWordTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0467C8EE1FFDC4920029347A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8DXMC25N8;
+				INFOPLIST_FILE = PassWordTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XiaoMenTong.PassWordTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0467C8F01FFDC4920029347A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8DXMC25N8;
+				INFOPLIST_FILE = PassWordTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XiaoMenTong.PassWordTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PassWordTextField.app/PassWordTextField";
+			};
+			name = Debug;
+		};
+		0467C8F11FFDC4920029347A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8DXMC25N8;
+				INFOPLIST_FILE = PassWordTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XiaoMenTong.PassWordTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PassWordTextField.app/PassWordTextField";
+			};
+			name = Release;
+		};
+		0467C8F31FFDC4920029347A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8DXMC25N8;
+				INFOPLIST_FILE = PassWordTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XiaoMenTong.PassWordTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PassWordTextField;
+			};
+			name = Debug;
+		};
+		0467C8F41FFDC4920029347A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8DXMC25N8;
+				INFOPLIST_FILE = PassWordTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XiaoMenTong.PassWordTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PassWordTextField;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0467C8BB1FFDC4910029347A /* Build configuration list for PBXProject "PassWordTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0467C8EA1FFDC4920029347A /* Debug */,
+				0467C8EB1FFDC4920029347A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0467C8EC1FFDC4920029347A /* Build configuration list for PBXNativeTarget "PassWordTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0467C8ED1FFDC4920029347A /* Debug */,
+				0467C8EE1FFDC4920029347A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0467C8EF1FFDC4920029347A /* Build configuration list for PBXNativeTarget "PassWordTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0467C8F01FFDC4920029347A /* Debug */,
+				0467C8F11FFDC4920029347A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0467C8F21FFDC4920029347A /* Build configuration list for PBXNativeTarget "PassWordTextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0467C8F31FFDC4920029347A /* Debug */,
+				0467C8F41FFDC4920029347A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0467C8B81FFDC4910029347A /* Project object */;
+}
